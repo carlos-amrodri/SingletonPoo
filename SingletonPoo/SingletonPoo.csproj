@@ -66,18 +66,18 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="General.cs" />
-    <Compile Include="Profecional.cs">
+    <Compile Include="Profesionales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Profecional.Designer.cs">
-      <DependentUpon>Profecional.cs</DependentUpon>
+    <Compile Include="Profesionales.Designer.cs">
+      <DependentUpon>Profesionales.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProfecionalCls.cs" />
-    <Compile Include="profecionalesListado.cs">
+    <Compile Include="ProfesionalCls.cs" />
+    <Compile Include="profesionalesListado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="profecionalesListado.Designer.cs">
-      <DependentUpon>profecionalesListado.cs</DependentUpon>
+    <Compile Include="profesionalesListado.Designer.cs">
+      <DependentUpon>profesionalesListado.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -98,11 +98,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Profecional.resx">
-      <DependentUpon>Profecional.cs</DependentUpon>
+    <EmbeddedResource Include="Profesionales.resx">
+      <DependentUpon>Profesionales.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="profecionalesListado.resx">
-      <DependentUpon>profecionalesListado.cs</DependentUpon>
+    <EmbeddedResource Include="profesionalesListado.resx">
+      <DependentUpon>profesionalesListado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

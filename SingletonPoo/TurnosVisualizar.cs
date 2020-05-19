@@ -13,7 +13,7 @@ namespace SingletonPoo
         public string cliente { get; set; }
         public string clientaApellido { get; set; }
 
-        public TurnosVisualizar(DateTime fecha,ProfecionalCls prof, ClienteCls cli)
+        public TurnosVisualizar(DateTime fecha,ProfesionalCls prof, ClienteCls cli)
         {
             this.fecha = fecha;
             this.profecional = prof._nombre;

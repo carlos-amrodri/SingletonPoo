@@ -13,7 +13,7 @@ namespace SingletonPoo
 
         // el constructor es privado para no poder instanciar desde afuera
         private General() {
-            profecionales = new List<ProfecionalCls>();
+            profesionales = new List<ProfesionalCls>();
             clientes = new List<ClienteCls>();
             turnos = new List<TurnoCls>();
         } 
@@ -32,17 +32,17 @@ namespace SingletonPoo
         }
 
         //Aqui guardo lo que nececito
-        List<ProfecionalCls> profecionales;
+        List<ProfesionalCls> profesionales;
         List<ClienteCls> clientes;
         List<TurnoCls> turnos;
 
-        public void addProfecionales(ProfecionalCls profecional)
+        public void addProfecionales(ProfesionalCls profecional)
         {
-            profecionales.Add(profecional);
+            profesionales.Add(profecional);
         }
-        public List<ProfecionalCls> getProfecionales()
+        public List<ProfesionalCls> getProfecionales()
         {
-            return this.profecionales;
+            return this.profesionales;
         }
 
         public void addCliente(ClienteCls cli)
@@ -67,7 +67,7 @@ namespace SingletonPoo
             List<TurnosVisualizar> listado = new List<TurnosVisualizar>();
             foreach(TurnoCls tur in turnos)
             {
-                TurnosVisualizar mostrar = new TurnosVisualizar(tur._fecha, tur._profecional, tur._cliente);
+                TurnosVisualizar mostrar = new TurnosVisualizar(tur._fecha, tur._profesional, tur._cliente);
                 listado.Add(mostrar);
             }
             return listado;

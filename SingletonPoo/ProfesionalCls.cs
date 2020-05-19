@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace SingletonPoo
 {
-    public class ProfecionalCls
+    public class ProfesionalCls
     {
         public int _dni { get; set; }
         public string _nombre { get; set; }
         public string _apellido { get; set; }
 
-        public ProfecionalCls(int dni, string nombre, string apellido)
+        public ProfesionalCls(int dni, string nombre, string apellido)
         {
             this._dni = dni;
             this._nombre = nombre;

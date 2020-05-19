@@ -32,7 +32,7 @@ namespace SingletonPoo
         private void BtnCrear_Click(object sender, EventArgs e)
         {
             ClienteCls cli =(ClienteCls)comboClientes.SelectedValue;
-            ProfecionalCls prof = (ProfecionalCls)comboProfecionales.SelectedValue;
+            ProfesionalCls prof = (ProfesionalCls)comboProfecionales.SelectedValue;
             DateTime fecha = dateTimePicker1.Value;
             TurnoCls turno = new TurnoCls(fecha, prof, cli);
             general.addTurno(turno);

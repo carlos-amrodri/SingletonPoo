@@ -1,6 +1,6 @@
 ﻿namespace SingletonPoo
 {
-    partial class profecionalesListado
+    partial class profesionalesListado
     {
         /// <summary>
         /// Required designer variable.

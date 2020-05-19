@@ -10,12 +10,12 @@ namespace SingletonPoo
     {
         public DateTime _fecha { get; set; }
         public ClienteCls _cliente { get; set; }
-        public ProfecionalCls _profecional { get; set; }
+        public ProfesionalCls _profesional { get; set; }
 
-        public TurnoCls (DateTime fecha, ProfecionalCls profecional, ClienteCls cliente)
+        public TurnoCls (DateTime fecha, ProfesionalCls profecional, ClienteCls cliente)
         {
             this._fecha = fecha;
-            this._profecional = profecional;
+            this._profesional = profecional;
             this._cliente = cliente;
         }
     }

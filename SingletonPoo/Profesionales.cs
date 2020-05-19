@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace SingletonPoo
 {
-    public partial class Profecional : Form
+    public partial class Profesionales : Form
     {
         General general = General.shared;
-        public Profecional()
+        public Profesionales()
         {
             InitializeComponent();
         }
@@ -28,7 +28,7 @@ namespace SingletonPoo
             int dni = Convert.ToInt16(textDni.Text);
             var name = textNombre.Text;
             var ape = textApellido.Text;
-            ProfecionalCls pro = new ProfecionalCls(dni, name, ape);
+            ProfesionalCls pro = new ProfesionalCls(dni, name, ape);
             general.addProfecionales(pro);
             MessageBox.Show("El profecional fue creado");
             limpiar();

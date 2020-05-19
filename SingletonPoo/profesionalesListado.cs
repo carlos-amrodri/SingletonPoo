@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SingletonPoo
 {
-    public partial class profecionalesListado : Form
+    public partial class profesionalesListado : Form
     {
-        public profecionalesListado()
+        public profesionalesListado()
         {
             InitializeComponent();
         }

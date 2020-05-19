@@ -24,14 +24,14 @@ namespace SingletonPoo
 
         private void ingresarNuevoProfecionalToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Profecional windProfecional = new Profecional();
+            Profesionales windProfecional = new Profesionales();
             windProfecional.MdiParent = this;
             windProfecional.Show();
         }
 
         private void listadoDeProfecionalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            profecionalesListado wProfList = new profecionalesListado();
+            profesionalesListado wProfList = new profesionalesListado();
             wProfList.MdiParent = this;
             wProfList.Show();
         }
