@@ -37,7 +37,6 @@
             this.ingresarNuevoClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listadoDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoTurnoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listadoDeTurnosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,8 +73,7 @@
             // turnosToolStripMenuItem
             // 
             this.turnosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoTurnoToolStripMenuItem,
-            this.listadoDeTurnosToolStripMenuItem});
+            this.nuevoTurnoToolStripMenuItem});
             this.turnosToolStripMenuItem.Name = "turnosToolStripMenuItem";
             this.turnosToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.turnosToolStripMenuItem.Text = "Turnos";
@@ -115,12 +113,6 @@
             this.nuevoTurnoToolStripMenuItem.Text = "Nuevo turno";
             this.nuevoTurnoToolStripMenuItem.Click += new System.EventHandler(this.nuevoTurnoToolStripMenuItem_Click);
             // 
-            // listadoDeTurnosToolStripMenuItem
-            // 
-            this.listadoDeTurnosToolStripMenuItem.Name = "listadoDeTurnosToolStripMenuItem";
-            this.listadoDeTurnosToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
-            this.listadoDeTurnosToolStripMenuItem.Text = "Listado de turnos";
-            // 
             // SolucionPoo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -150,7 +142,6 @@
         private System.Windows.Forms.ToolStripMenuItem listadoDeClientesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem turnosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevoTurnoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listadoDeTurnosToolStripMenuItem;
     }
 }
 
