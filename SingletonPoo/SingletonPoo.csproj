@@ -46,14 +46,64 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cliente.Designer.cs">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClienteCls.cs" />
+    <Compile Include="clienteListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clienteListado.Designer.cs">
+      <DependentUpon>clienteListado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="General.cs" />
+    <Compile Include="Profecional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profecional.Designer.cs">
+      <DependentUpon>Profecional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProfecionalCls.cs" />
+    <Compile Include="profecionalesListado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="profecionalesListado.Designer.cs">
+      <DependentUpon>profecionalesListado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Turno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Turno.Designer.cs">
+      <DependentUpon>Turno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TurnoCls.cs" />
+    <Compile Include="TurnosVisualizar.cs" />
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clienteListado.resx">
+      <DependentUpon>clienteListado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profecional.resx">
+      <DependentUpon>Profecional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="profecionalesListado.resx">
+      <DependentUpon>profecionalesListado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +113,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Turno.resx">
+      <DependentUpon>Turno.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
